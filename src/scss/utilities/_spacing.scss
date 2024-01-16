@@ -1,0 +1,18 @@
+// Pour plus de renseignement sur ce mixin voir le lien suivant
+// https://gist.github.com/jacurtis/30da4bf9a6c9b9b5cc0aebac512ca7c9
+
+
+$spaceamounts: (5, 10, 15, 20); // Ajuster le tableau pour indiquer les valeurs d'espace que vous voulez.
+$sides: (top, bottom, left, right); //Valeurs utilisez pour créer les espaces
+
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    .m-#{str-slice($side, 0, 1)}-#{$space} {
+      margin-#{$side}: #{$space}px !important;
+    }
+
+    .p-#{str-slice($side, 0, 1)}-#{$space} {
+      padding-#{$side}: #{$space}px !important;
+    }
+  }
+}

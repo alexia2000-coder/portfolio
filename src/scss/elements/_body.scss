@@ -1,0 +1,10 @@
+// LE BODY PERMET D'INITIALISER LES PROPRIÉTÉS GÉNÉRALES DE LA PAGE. LES ÉLÉMENTS DE LA PAGE VONT HÉRITÉS DES PROPRIÉTÉS INSCRITE DANS BODY
+
+body{
+  font-family: $ff-normal;
+  font-size: $fz-normal;
+  color: $color-text-normal;
+  line-height: $lh-normal;
+
+  background: $color-bg-page;
+}

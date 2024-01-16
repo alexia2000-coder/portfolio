@@ -1,0 +1,8 @@
+
+
+
+//FONCTION POUR CONVERTIR LA TYPOGRAPHIE AVEC LES UNITÉS PX EN UNITÉS REM
+
+@function rem($fz){
+  @return ($fz / 16) + rem;
+}

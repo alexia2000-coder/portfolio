@@ -1,0 +1,17 @@
+//FICHIER DE CONFIGURATION POUR LES ÉLÉMENTS HR DE LA PAGE
+
+
+hr{
+  border: 0;
+  height: 4px;
+  background: $gray-500;
+  margin-top: 40px;
+}
+
+hr.hr-thin{
+  height: 1px;
+}
+
+hr.hr-large{
+  height: 8px;
+}
